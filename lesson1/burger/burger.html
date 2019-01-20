@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="burgerStyle.css">
+    <script src="burger.js" async></script>
+    <title>Burger</title>
+</head>
+<body>
+<div class="burdger">
+    <form action="#" class="burger__form">
+        <h2 class="burger__title">Create your burger</h2>
+
+        <div class="burger__attr">
+            <div class="burger__size">
+                <h3>Select burger size</h3>
+                <select name="sizeBurger" id="sizeBurger" class="burger__select">
+                    <option value="smallBurger" id="smallBurger" name="small" data-price="50" data-cal="20">Small(50 rub, 20 cal)
+                    </option>
+                    <option value="bigBurger" id="bigBurger" name="big" data-price="100" data-cal="40">Big(100 rub, 40 cal)
+                    </option>
+                </select>
+            </div>
+
+            <div class="burger__filling">
+                <h3>Select burger filling</h3>
+                <select name="fillingBurger" id="fillingBurger" class="burger__select">
+                    <option value="cheese" id="cheese" name="cheese" data-price="10" data-cal="20">Cheese(10 rub, 20 cal)</option>
+                    <option value="salad" id="salad" name="salad" data-price="20" data-cal="5">Salad(20 rub, 5 cal)</option>
+                    <option value="potato" id="potato" name="potato" data-price="15" data-cal="10">Potato(15 rub, 10 cal)</option>
+                </select>
+            </div>
+
+            <div class="burger__extra">
+                <h3>Select additive</h3>
+                <input type="checkbox" checked name="toppings" id="seasoning" value="spices" class="burger__input"
+                       data-price="15" data-calories="0">
+                <label for="seasoning">Sprinkle with seasoning(15 rub, 0 cal)</label><br/>
+                <input type="checkbox" name="toppings" id="mayonnaise" value="mayonnaise" class="burger__input"
+                       data-price="20" data-calories="5">
+                <label for="mayonnaise">Pour mayonnaise (20 rub, 5 cal)</label>
+            </div>
+        </div>
+        <button class="burger__btn" id="burgerBtn">Create</button>
+
+        <div class="burger__result" id="resultSum">total price: <span id="price">0</span><br/>
+            total calories: <span id="caloriesSum">0</span></div>
+    </form>
+</div>
+</body>
+</html>

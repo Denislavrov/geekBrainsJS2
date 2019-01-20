@@ -1,0 +1,13 @@
+.burger__form {
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid black; }
+.burger__attr {
+  padding: 20px 0; }
+.burger__btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px; }
+
+/*# sourceMappingURL=burgerStyle.css.map */

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="menu.css">
+    <title>Menu</title>
+</head>
+<body>
+<button class="remove__btn" id="removeBtn">Delete</button>
+<div id="menu"></div>
+<script src="MenuItem.js"></script>
+<script src="Menu.js"></script>
+<script>
+    window.onload = () => {
+        // DOM ready
+        let block = document.getElementById('menu');
+
+        let menu = new Menu('my', 'my', [
+            new MenuItem('/', 'Home', 'menu__item'),
+            new MenuItem('/about', 'About', 'menu__item'),
+            new MenuItem('/policy', 'Policy', 'menu__item',),
+             new SubMenu('subMy', 'subMy', '/test', 'test','menu__item', 'active', [
+                 new MenuItem('/about', 'About', 'submenu__item'),
+                 new MenuItem('/policy', 'Policy', 'submenu__item'),
+             ]),
+            new MenuItem('/blog', 'Blog', 'menu__item',)
+        ]);
+
+        block.innerHTML = menu.render();
+
+        let remove = document.querySelector('#removeBtn');
+        remove.addEventListener('click', () => menu.remove());
+    }
+</script>
+</body>
+</html>

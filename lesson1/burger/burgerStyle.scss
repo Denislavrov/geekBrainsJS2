@@ -1,0 +1,17 @@
+
+.burger {
+  &__form {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+  }
+  &__attr {
+    padding: 20px 0;
+  }
+  &__btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+}
