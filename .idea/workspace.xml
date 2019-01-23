@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e11decdf-3301-496e-a735-410b194f5e4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson2/galleryJSON/img/max/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/galleryJSON/img/max/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/galleryJSON/img/max/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/galleryJSON/img/max/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/4/4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/4/4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/4/error.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/4/success.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,32 +26,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="7" />
+          <entry key="html" value="11" />
           <entry key="jpg" value="5" />
-          <entry key="js" value="1" />
-          <entry key="json" value="4" />
+          <entry key="js" value="3" />
+          <entry key="json" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="7" />
+          <entry key="HTML" value="11" />
           <entry key="Image" value="5" />
-          <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="1" />
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="3" />
+          <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="395" />
-          <entry key="js" value="3443" />
-          <entry key="json" value="35" />
+          <entry key="html" value="492" />
+          <entry key="js" value="4078" />
+          <entry key="json" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="395" />
-          <entry key="JSON" value="35" />
-          <entry key="JavaScript" value="3443" />
+          <entry key="HTML" value="492" />
+          <entry key="JSON" value="87" />
+          <entry key="JavaScript" value="4078" />
         </counts>
       </usages-collector>
     </session>
@@ -58,38 +60,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson2/galleryJSON/galleryJSON.html">
+        <entry file="file://$PROJECT_DIR$/lesson2/4/success.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson2/galleryJSON/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="267">
+              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson2/ajax.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="54" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson2/galleryJSON/galleryjson.json">
+        <entry file="file://$PROJECT_DIR$/lesson2/4/error.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="34" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="34" />
+            <state>
+              <caret column="8" selection-start-column="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson2/4/4.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson2/lesson2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-62" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson2/4/4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,6 +140,10 @@
         <option value="$PROJECT_DIR$/lesson2/galleryJSON/galleryjson.json" />
         <option value="$PROJECT_DIR$/lesson2/galleryJSON/galleryJSON.html" />
         <option value="$PROJECT_DIR$/lesson2/galleryJSON/index.js" />
+        <option value="$PROJECT_DIR$/lesson2/4/success.json" />
+        <option value="$PROJECT_DIR$/lesson2/4/error.json" />
+        <option value="$PROJECT_DIR$/lesson2/4/4.html" />
+        <option value="$PROJECT_DIR$/lesson2/4/4.js" />
       </list>
     </option>
   </component>
@@ -136,30 +180,13 @@
               <item name="geekBrainsJS2" type="b2602c69:ProjectViewProjectNode" />
               <item name="geekBrainsJS2" type="462c0819:PsiDirectoryNode" />
               <item name="lesson2" type="462c0819:PsiDirectoryNode" />
-              <item name="galleryJSON" type="462c0819:PsiDirectoryNode" />
+              <item name="4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="geekBrainsJS2" type="b2602c69:ProjectViewProjectNode" />
               <item name="geekBrainsJS2" type="462c0819:PsiDirectoryNode" />
               <item name="lesson2" type="462c0819:PsiDirectoryNode" />
               <item name="galleryJSON" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekBrainsJS2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geekBrainsJS2" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
-              <item name="galleryJSON" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="max" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekBrainsJS2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geekBrainsJS2" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
-              <item name="galleryJSON" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="min" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -168,6 +195,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -203,12 +231,12 @@
       <updated>1547992272189</updated>
       <workItem from="1547992276349" duration="2465000" />
       <workItem from="1548000735268" duration="9943000" />
-      <workItem from="1548276056109" duration="5053000" />
+      <workItem from="1548276056109" duration="7360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17461000" />
+    <option name="totallyTimeSpent" value="19768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
@@ -279,9 +307,6 @@
     <entry file="file://$PROJECT_DIR$/lesson2/galleryJSON/img/min/4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/lesson2.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson2/promises.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -295,9 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/ajax.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson2/galleryJSON/galleryJSON.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
@@ -305,10 +327,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/4/success.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson2/galleryJSON/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="267">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/lesson2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/4/error.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/4/4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/4/4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
