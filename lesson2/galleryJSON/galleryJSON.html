@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gallery</title>
+    <script src="index.js" async></script>
+</head>
+<body>
+<style>
+    .gallery {
+        margin: 40px auto;
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img__small {
+        width: 120px;
+        height: 60px;
+        cursor: pointer;
+    }
+
+    .modal__bg {
+        position: absolute;
+        width: 100%;
+        height: 1000px;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .modal {
+        position: relative;
+        width: 70%;
+        height: 500px;
+        padding: 20px;
+        margin: 50px auto;
+        background-color: white;
+    }
+    .modal__close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 25px;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .modal__img {
+        width: 500px;
+        height: 300px;
+        display: block;
+        margin: 50px auto;
+    }
+</style>
+<div class="gallery" id="gallery"></div>
+</body>
+</html>
