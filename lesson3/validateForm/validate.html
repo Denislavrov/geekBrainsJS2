@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<style>
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: auto;
+        margin: 50px auto;
+    }
+    .input {
+        width: 90%;
+        height: 40px;
+        padding: 5px 15px;
+        margin: 10px 0;
+    }
+    .btn {
+        background-color: rebeccapurple;
+        color: white;
+        padding: 10px 15px;
+        margin: 10px auto;
+        width: 60px;
+        cursor: pointer;
+    }
+    .error-msg{
+        color: red;
+        margin: 10px 0;
+    }
+    .invalid{
+        border: 2px solid red;
+    }
+    .valid{
+        border: 2px solid green;
+    }
+</style>
+<form action="" class="form" id="form">
+    <input class="input" name="name" id="inputName" type="text" placeholder="name">
+    <input class="input" name="phone" id="inputPhone" type="text" placeholder="phone">
+    <input class="input" name="email" id="inputMail" type="text" placeholder="email">
+
+    <button class="btn" id="btn">Submit</button>
+
+</form>
+<script src="validate.js"></script>
+</body>
+</html>
