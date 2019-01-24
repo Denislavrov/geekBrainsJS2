@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TABS</title>
+</head>
+<body>
+<style>
+
+    *,
+    *:before,
+    *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    body{
+        margin:0;
+        padding:0;
+        font:0.875em/1.48 arial,tahoma;
+    }
+    .container-tab{
+        margin:auto;
+        max-width:800px;
+        padding:0 20px;
+    }
+    .accordion-tabs {
+        *zoom: 1;
+        width: 100%;
+        border: 1px solid #dddddd;
+        border-radius: 0.1875em;
+        margin-bottom: 1.5em;
+        margin-left:0;
+        padding-left:0;
+    }
+    .accordion-tabs:before,
+    .accordion-tabs:after {
+        content: " ";
+        display: table;
+    }
+    .accordion-tabs:after {
+        clear: both;
+    }
+    .accordion-tabs li{
+        list-style:none;
+    }
+    .accordion-tabs li.tab-head-cont:first-child a {
+        border-top-left-radius: 0.1875em;
+        border-top-right-radius: 0.1875em;
+        border-top: 0;
+    }
+    .accordion-tabs li.tab-head-cont:last-child a {
+        border-bottom-left-radius: 0.1875em;
+        border-bottom-right-radius: 0.1875em;
+    }
+    .accordion-tabs li.tab-head-cont a {
+        text-decoration:none;
+        border-top: 1px solid #dddddd;
+        color: #888888;
+        display: block;
+        padding: 0.75em 0.809em;
+    }
+    .accordion-tabs li.tab-head-cont a:hover {
+        color: #000000;
+    }
+    .accordion-tabs li.tab-head-cont a:focus {
+        outline: none;
+    }
+    .accordion-tabs li.tab-head-cont a.is-active {
+        background-color: #f7f7f7;
+        border-bottom: 0;
+        color:#333333;
+    }
+    .accordion-tabs li.tab-head-cont section {
+        padding: 1.5em 1.618em;
+        background: #f7f7f7;
+        display: none;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+        .accordion-tabs li.tab-head-cont {
+            display: inline;
+        }
+        .accordion-tabs li.tab-head-cont:last-child a {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        .accordion-tabs li.tab-head-cont a {
+            display: inline-block;
+            vertical-align: baseline;
+            zoom: 1;
+            *display: inline;
+            *vertical-align: auto;
+            border-top: 0;
+            border-top-right-radius: 0.1875em;
+            border-top-left-radius: 0.1875em;
+        }
+        .accordion-tabs li.tab-head-cont a.is-active {
+            background-color: #f7f7f7;
+            border: 1px solid #dddddd;
+            border-bottom: 1px solid #f7f7f7;
+            margin-bottom: -1px;
+        }
+        .accordion-tabs li.tab-head-cont section {
+            border-bottom-left-radius: 0.1875em;
+            border-bottom-right-radius: 0.1875em;
+            border: 1px solid #dddddd;
+            float: left;
+            left: 0;
+            padding: 0.75em 0.809em;
+        }
+        .accordion-tabs li.tab-head-cont section p {
+            -webkit-columns: 2;
+            -moz-columns: 2;
+            columns: 2;
+        }
+    }
+
+</style>
+<div class="container-tab">
+
+    <ul class="accordion-tabs">
+        <li class="tab-head-cont">
+            <a href="#" class="is-active">1</a>
+            <section>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum."</p>
+            </section>
+        </li>
+        <li class="tab-head-cont">
+            <a href="#">2</a>
+            <section>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum."</p>
+            </section>
+        </li>
+        <li class="tab-head-cont">
+            <a href="#">3</a>
+            <section>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum."</p>
+            </section>
+        </li>
+        <li class="tab-head-cont">
+            <a href="#">4</a>
+            <section>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum."</p>
+            </section>
+        </li>
+    </ul>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="tabs.js"></script>
+</body>
+</html>
