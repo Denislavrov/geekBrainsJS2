@@ -15,11 +15,21 @@
         height: auto;
         margin: 50px auto;
     }
+    .box {
+        width: 100%;
+    }
     .input {
         width: 90%;
         height: 40px;
         padding: 5px 15px;
         margin: 10px 0;
+    }
+    .city {
+        width: 90%;
+        height: 40px;
+        padding: 5px 15px;
+        margin: 10px 0;
+        cursor: pointer;
     }
     .btn {
         background-color: rebeccapurple;
@@ -40,14 +50,25 @@
         border: 2px solid green;
     }
 </style>
-<form action="" class="form" id="form">
-    <input class="input" name="name" id="inputName" type="text" placeholder="name">
-    <input class="input" name="phone" id="inputPhone" type="text" placeholder="phone">
-    <input class="input" name="email" id="inputMail" type="text" placeholder="email">
+    <form action="" class="form" id="form">
+        <div class="box">
+            <input class="input" name="name" id="inputName" type="text" placeholder="name">
+        </div>
+        <div class="box">
+            <input class="input" name="phone" id="inputPhone" type="text" placeholder="phone">
+        </div>
+        <div class="box">
+            <input class="input" name="email" id="inputMail" type="text" placeholder="email">
+        </div>
+        <div class="box">
+            <select name="city" id="city" class="city">
+                <option value="0">Select your city</option>
+            </select>
+        </div>
+        <button class="btn" id="btn">Submit</button>
 
-    <button class="btn" id="btn">Submit</button>
-
-</form>
+    </form>
 <script src="validate.js"></script>
+<script src="selectCity.js"></script>
 </body>
 </html>
