@@ -31,6 +31,9 @@
         margin: 10px 0;
         cursor: pointer;
     }
+    .city__list {
+        list-style: none;
+    }
     .btn {
         background-color: rebeccapurple;
         color: white;
@@ -60,10 +63,11 @@
         <div class="box">
             <input class="input" name="email" id="inputMail" type="text" placeholder="email">
         </div>
-        <div class="box">
-            <select name="city" id="city" class="city">
-                <option value="0">Select your city</option>
-            </select>
+        <div class="box autocomplete">
+            <input type="text" name="autocompleteCity" id="city" class="city" placeholder="Entry your city...">
+            <ul id="cityList" class="city__list"></ul>
+            <!--<select name="city" id="city" class="city">-->
+            <!--</select>-->
         </div>
         <button class="btn" id="btn">Submit</button>
 
