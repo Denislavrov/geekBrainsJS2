@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<style>
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: auto;
+        margin: 50px auto;
+    }
+    .box {
+        width: 100%;
+    }
+    .input {
+        width: 90%;
+        height: 40px;
+        padding: 5px 15px;
+        margin: 10px 0;
+    }
+    .city {
+        width: 90%;
+        height: 40px;
+        padding: 5px 15px;
+        margin: 10px 0;
+        cursor: pointer;
+    }
+    .city__list {
+        list-style: none;
+    }
+    .btn {
+        background-color: rebeccapurple;
+        color: white;
+        padding: 10px 15px;
+        margin: 10px auto;
+        width: 60px;
+        cursor: pointer;
+    }
+    .error-msg{
+        color: red;
+        margin: 10px 0;
+    }
+    .invalid{
+        border: 2px solid red;
+    }
+    .valid{
+        border: 2px solid green;
+    }
+</style>
+    <form action="" class="form" id="form">
+        <div class="box">
+            <input class="input" name="name" id="inputName" type="text" placeholder="name">
+        </div>
+        <div class="box">
+            <input class="input" name="phone" id="inputPhone" type="text" placeholder="phone">
+        </div>
+        <div class="box">
+            <input class="input" name="email" id="inputMail" type="text" placeholder="email">
+        </div>
+        <div class="box autocomplete">
+            <input type="text" name="autocompleteCity" id="city" class="city" placeholder="Entry your city...">
+            <ul id="cityList" class="city__list"></ul>
+            <!--<select name="city" id="city" class="city">-->
+            <!--</select>-->
+        </div>
+        <button class="btn" id="btn">Submit</button>
+
+    </form>
+<script src="validate.js"></script>
+<script src="selectCity.js"></script>
+</body>
+</html>
